@@ -1,0 +1,4 @@
+to use a rest api we use @ResponseBoby unde @Conlroller
+@ResponseBoby + @Conlroller = @RestController
+
+thymeleaf dependancy is used for load static webpage
