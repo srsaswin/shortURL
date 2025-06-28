@@ -2,3 +2,14 @@ to use a rest api we use @ResponseBoby unde @Conlroller
 @ResponseBoby + @Conlroller = @RestController
 
 thymeleaf dependancy is used for load static webpage
+to use it
+
+in code:
+    import org.springframework.ui.Model;
+    public String home(Model model){
+        model.addAttribute("title", "hi from thymelea f");
+        return "index";
+    }
+
+in html:
+    <h1 th:text="${title}">hai from html</h1> // THE OUTPUT IS hi from thymelea f
